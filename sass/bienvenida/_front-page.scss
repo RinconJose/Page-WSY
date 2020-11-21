@@ -1,0 +1,50 @@
+.bienvenida-wesiteyou{
+    background-color: $color_azul;
+    position: relative;
+    top: -80px;
+    width: 100%;
+    height: 90vh;
+    z-index: -100;
+    .menu-wesiteyou {
+        width: 93%;
+        position: absolute;
+        top: 12%;
+        left: 4%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        .logo_wisiteyou{
+            width: 24%;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu-secundario {
+            width: 35%;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            a{
+                text-decoration: none;
+                color: $color_blanco;
+                font-size: 1.625em;
+                font-weight: 600;
+            }
+        }
+    }
+    .talking_wesiteyou {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 30%;
+    }
+    .wave {
+        
+    }
+    
+}

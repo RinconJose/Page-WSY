@@ -12,14 +12,15 @@ body {
 }
 
 header {
-  background: rgba(16, 1, 70, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   width: 100%;
   height: 80px;
 }
 
 header .menu-principal {
-  width: 100%;
+  width: 95%;
   height: 100%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +32,7 @@ header .menu-principal {
 }
 
 header .menu-principal .contactos {
-  width: 65%;
+  width: 50%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,9 +46,8 @@ header .menu-principal .contactos {
 }
 
 header .menu-principal .contactos .correo {
-  width: 37%;
+  width: 50%;
   height: 100%;
-  margin-left: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,23 +56,12 @@ header .menu-principal .contactos .correo {
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 10px;
+  padding: 19px;
 }
 
 header .menu-principal .contactos .correo .contenedor-correo {
-  border: 1px solid #707070;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: transparent;
   margin-right: 10px;
-  padding: 0px 30px;
-  border-radius: 50%;
-  position: relative;
-}
-
-header .menu-principal .contactos .correo .contenedor-correo .logo-correo-wesiteyou {
-  font-size: 22px;
-  position: absolute;
-  top: 24%;
-  left: 32%;
 }
 
 header .menu-principal .contactos .correo .gmail {
@@ -91,10 +80,11 @@ header .menu-principal .contactos .correo .gmail .gmail_wesiteyou {
   font-size: 1.75em;
   font-weight: 600;
   color: #fff;
+  padding-bottom: 6px;
 }
 
 header .menu-principal .contactos .telefono {
-  width: 50%;
+  width: 30%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,23 +94,12 @@ header .menu-principal .contactos .telefono {
           justify-content: end;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 10px;
+  padding: 19px;
 }
 
 header .menu-principal .contactos .telefono .contenedor-telefono {
-  border: 1px solid #707070;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: transparent;
   margin-right: 10px;
-  padding: 0px 30px;
-  border-radius: 50%;
-  position: relative;
-}
-
-header .menu-principal .contactos .telefono .contenedor-telefono .logo-telefono-wesiteyou {
-  font-size: 22px;
-  position: absolute;
-  top: 24%;
-  left: 32%;
 }
 
 header .menu-principal .contactos .telefono .telefono_wesiteyou {
@@ -139,6 +118,7 @@ header .menu-principal .contactos .telefono .telefono_wesiteyou .numero_wesiteyo
   font-size: 1.75em;
   font-weight: 600;
   color: #fff;
+  padding-bottom: 6px;
 }
 
 header .menu-principal .menu {
@@ -147,70 +127,41 @@ header .menu-principal .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 0 10px;
 }
 
 header .menu-principal .menu .contenedor-redes-sociales {
-  width: 36%;
+  width: 25%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 10px;
-}
-
-header .menu-principal .menu .contenedor-redes-sociales .contenedor-facebook {
-  border: 1px solid #707070;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin-right: 10px;
-  padding: 0px 30px;
-  border-radius: 50%;
-  position: relative;
-}
-
-header .menu-principal .menu .contenedor-redes-sociales .contenedor-facebook .logo-facebook {
-  font-size: 22px;
-  position: absolute;
-  top: 24%;
-  left: 37%;
-}
-
-header .menu-principal .menu .contenedor-redes-sociales .contenedor-instagram {
-  border: 1px solid #707070;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin-right: 10px;
-  padding: 0px 30px;
-  border-radius: 50%;
-  position: relative;
-}
-
-header .menu-principal .menu .contenedor-redes-sociales .contenedor-instagram .logo-instagram {
-  font-size: 30px;
-  position: absolute;
-  top: 16%;
-  left: 28%;
 }
 
 header .menu-principal .menu .menu-hamburguesa {
-  width: 63%;
+  width: 40%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -220,25 +171,26 @@ header .menu-principal .menu .menu-hamburguesa {
 }
 
 header .menu-principal .menu .menu-hamburguesa .menu-nombre {
-  width: 75%;
   height: 100%;
   padding: 10px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 header .menu-principal .menu .menu-hamburguesa .menu-nombre .texto-menu {
   font-size: 1.75em;
-  font-weight: 600;
   color: #fff;
+  font-family: "TrashHand";
 }
 
 header .menu-principal .menu .menu-hamburguesa .contenedor-menu-hamburguesa {
-  width: 20%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,10 +200,78 @@ header .menu-principal .menu .menu-hamburguesa .contenedor-menu-hamburguesa {
           align-items: center;
 }
 
-header .menu-principal .menu .menu-hamburguesa .contenedor-menu-hamburguesa .logo-hamburguesa {
-  font-size: 25px;
-  padding: 10px;
-  color: #fff;
+header .menu-principal .menu .menu-hamburguesa .contenedor-menu-hamburguesa img {
   cursor: pointer;
+}
+
+.bienvenida-wesiteyou {
+  background-color: #100146;
+  position: relative;
+  top: -80px;
+  width: 100%;
+  height: 90vh;
+  z-index: -100;
+}
+
+.bienvenida-wesiteyou .menu-wesiteyou {
+  width: 93%;
+  position: absolute;
+  top: 12%;
+  left: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.bienvenida-wesiteyou .menu-wesiteyou .logo_wisiteyou {
+  width: 24%;
+  padding: 10px;
+  text-align: center;
+}
+
+.bienvenida-wesiteyou .menu-wesiteyou .menu-secundario {
+  width: 35%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bienvenida-wesiteyou .menu-wesiteyou .menu-secundario a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.625em;
+  font-weight: 600;
+}
+
+.bienvenida-wesiteyou .talking_wesiteyou {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: absolute;
+  top: 30%;
 }
 /*# sourceMappingURL=estilos.css.map */
